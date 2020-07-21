@@ -1,0 +1,19 @@
+# Hello User Name : here input function is used to ask user for the input value and then the %S is used as a format string to output 
+# value at desired location.
+# f"hello %s ! is not used below python 3.6
+
+from datetime import date
+
+user_name = input("Enter UserName: ") 
+message = "Hello %s , Today is a beautiful day !" % user_name
+print(message)
+
+
+username = input ("Enter user name : ")
+surname = input("Enter surname : ")
+todaystatus ="Today is"
+today = date.today()
+
+
+msg = "Hello, %s %s %s" % (username,surname ,todaystatus  ) , today.strftime("%B %d, %Y")
+print (msg)
