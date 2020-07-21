@@ -1,0 +1,13 @@
+
+# For loops
+#trying to use round up function with for loop
+# use the terminal and check the various functions using dir(__builtins__) 
+
+monday_temperature = [2.3,4.5,67,23.43,23.56]
+
+for temp in monday_temperature:
+    print(round(temp))
+
+for letters in 'Hello' :
+    print(letters)
+    print(letters.title())  #captital letters will be printed
