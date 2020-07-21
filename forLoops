@@ -31,3 +31,13 @@ for dayTempValues in day_temperatures.values():
     print(dayTempValues)
 
 
+###################################################################################################
+
+
+
+while True:
+    codename = input("Enter your code to proceed : ")
+    if codename == "whilecode":
+        break
+    else:
+        print(codename)
