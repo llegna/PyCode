@@ -11,3 +11,23 @@ for temp in monday_temperature:
 for letters in 'Hello' :
     print(letters)
     print(letters.title())  #captital letters will be printed
+
+#################################################################################################
+
+#To use iteration around dictionary values
+
+day_temperatures = {'morning':1.2 ,'noon':3.2,'evening':5}
+
+print("Printing the tuples in the dictionary")
+for dayTemp in day_temperatures.items():
+    print(dayTemp)
+
+print("Printing the Keys  in the dictionary")
+for dayTempKeys in day_temperatures.keys():
+    print(dayTempKeys)
+
+print("Printing the values in the dictionary")
+for dayTempValues in day_temperatures.values():
+    print(dayTempValues)
+
+
